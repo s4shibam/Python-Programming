@@ -7,13 +7,12 @@ class firstclass:
     """
     pass
 
+
 firstclass.first = 'Introduction to OOPS'
-firstclass. second= 2022
+firstclass. second = 2022
 
 print(firstclass)
 print(firstclass.first)
 print(type(firstclass.first))
 print(firstclass.second)
 print(type(firstclass.second))
-
-

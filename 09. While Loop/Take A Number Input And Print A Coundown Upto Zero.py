@@ -3,8 +3,8 @@
 
 num = int(input("Enter a number to start countdown = "))
 
-print("\nCoundown upto Zero = ")
+print("\nCountdown upto Zero = ")
 
-while(num>=0):
+while (num >= 0):
     print(num)
-    num-=1
+    num -= 1

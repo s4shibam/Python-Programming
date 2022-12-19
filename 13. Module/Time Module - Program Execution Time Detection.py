@@ -5,7 +5,8 @@ print(start)
 for i in range(450):
     print("Salman Weds Katrina is a dream for Bhai fans")
 
-print(f"For loop execution time = {time.time() - start} secs.")     # Prints (current time - starting time)
+# Prints (current time - starting time)
+print(f"For loop execution time = {time.time() - start} secs.")
 
 start = time.time()  # Resetting the starting time
 
@@ -14,4 +15,5 @@ while k < 450:
     print("Salman Weds Katrina is a dream for Bhai fans")
     k += 1
 
-print(f"While loop execution time = {time.time() - start} secs.")  # Prints (current time - starting time)
+# Prints (current time - starting time)
+print(f"While loop execution time = {time.time() - start} secs.")

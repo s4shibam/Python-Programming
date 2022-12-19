@@ -1,3 +1,4 @@
 # Exclude
 
 *.idea
+__pycache__/

@@ -12,8 +12,10 @@ print(type(var3))
 print(var2 + var3)  # Sum of integer and float
 print(var1 + var4)  # Concatenate two strings
 
-print(var5 + var6)  # Numbers considered as a string as they are under double quote.
-print(int(var5) + int(var6))  # Explicit type casting. Forcefully converted into Integer type from String type.
+# Numbers considered as a string as they are under double quote.
+print(var5 + var6)
+# Explicit type casting. Forcefully converted into Integer type from String type.
+print(int(var5) + int(var6))
 
 print(10 * "Shibam Saha\n")  # Printing same word for 10 times (10 * "string" )
 

@@ -4,7 +4,7 @@ f = open(tf, "w")
 
 a = f.write("Shibam is one of the best programmer.\n")
 
-print(a)  # This prints that how much character has been inputted by the write mode.
+# This prints that how much character has been inputted by the write mode.
+print(a)
 
 f.close()
-

@@ -7,7 +7,8 @@ print(set_using_list)
 
 print("\nSet s = ")
 s.add(10)  # Adding values.
-s.add(10)  # This value will not be added as Set function only accepts unique values.
+# This value will not be added as Set function only accepts unique values.
+s.add(10)
 print(s)
 s.add(20)
 print(s)

@@ -11,7 +11,8 @@ class employee():
         return f"Employee Name: {self.name}, \tAge: {self.age} \tDesignation: {self.designation}, \tSalary: {self.salary}"
 
     @classmethod
-    def change_leaves(cls, new_leaves):  # Parameters --> Class of the instance variable, another parameter.
+    # Parameters --> Class of the instance variable, another parameter.
+    def change_leaves(cls, new_leaves):
         cls.no_of_leaves = new_leaves
 
     @classmethod
@@ -26,15 +27,15 @@ class employee():
         return cls(*str.split("/"))
 
 
-
-
-sunabha = employee('Sunabha Panda', 21, 'SWE II', '35 LPA')  # These parameters are passing through __init__ function.
+# These parameters are passing through __init__ function.
+sunabha = employee('Sunabha Panda', 21, 'SWE II', '35 LPA')
 pritam = employee('Pritam Gain', 18, 'SDE I', '29 LPA')
 
 # Calls from_str() to convert the single string input into multiple string for __init__ function parameters.
 shibam = employee.from_slash("Shibam Saha/29/SDE III/47 LPA")
 
-print(sunabha.print_details())  # Here "sunabha" named instance passes as a parameter under print_details().
+# Here "sunabha" named instance passes as a parameter under print_details().
+print(sunabha.print_details())
 print(pritam.print_details())
 print(shibam.print_details())
 print()

@@ -4,7 +4,7 @@ print("\n---- !! Guess the Number !! ----\n")
 sr = int(input("Enter your desired \"Starting Range\" : "))
 er = int(input("Enter your desired \"Ending Range\" : "))
 
-if (er<sr):
+if (er < sr):
     print("Game Crashed!!!")
     print("\"Starting Range\" can't be lesser than \"Ending Range\"!!")
     exit(0)
@@ -14,11 +14,11 @@ else:
 print(f"So..... The Number is Between {sr} to {er}")
 print("Lets start the game.....")
 
-if((er-sr)<=50):
+if ((er-sr) <= 50):
     g = 5
-elif((er-sr)>50 and (er-sr)<=100):
+elif ((er-sr) > 50 and (er-sr) <= 100):
     g = 10
-elif((er-sr)>100):
+elif ((er-sr) > 100):
     g = 15
 
 mg = g

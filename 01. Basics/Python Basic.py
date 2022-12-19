@@ -1,4 +1,4 @@
-# Hello World! Printing & Basic knowledge regarding python systaxes.
+# Hello World! Printing & Basic knowledge regarding python syntaxes.
 """
 Multi
 Line

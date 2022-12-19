@@ -10,10 +10,10 @@ def SI():
     print(f"  Years = {t}")
     return p*r*t/100
 
+
 print("Name is ", __name__)
 if __name__ == '__main__':
 
     success = "Yeah!! I am selected in Microsoft!!!"
     result = SI()
     print(f"Interest Amount = {result}")
-

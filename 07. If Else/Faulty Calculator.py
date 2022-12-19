@@ -10,23 +10,23 @@ n2 = int(input("Enter 2nd no. = "))
 
 opt = input("Enter a operator (+ or - or * or /) = ")
 
-if opt=="+":
-    if (n1==56 and n2==9) or (n2==56 and n1==9):
+if opt == "+":
+    if (n1 == 56 and n2 == 9) or (n2 == 56 and n1 == 9):
         print("Addition Result = 77")
     else:
         print("Addition Result = ", n1+n2)
 
-elif opt=="-":
+elif opt == "-":
     print("Subtraction Result = ", n1-n2)
 
-elif opt=="*":
-    if (n1==45 and n2==3) or (n2==45 and n1==3):
+elif opt == "*":
+    if (n1 == 45 and n2 == 3) or (n2 == 45 and n1 == 3):
         print("Addition Result = 555")
     else:
         print("Addition Result = ", n1*n2)
 
-elif opt=="/":
-    if (n1==56 and n2==6) or (n2==56 and n1==6):
+elif opt == "/":
+    if (n1 == 56 and n2 == 6) or (n2 == 56 and n1 == 6):
         print("Addition Result = 4")
     else:
         print("Addition Result = ", n1/n2)

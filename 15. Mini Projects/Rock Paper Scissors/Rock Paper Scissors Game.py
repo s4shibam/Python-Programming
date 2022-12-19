@@ -13,6 +13,8 @@ import cls              # To clear screen
 user_name = ''          # This global variable is used to store the player name
 
 # Function to display the rules of this game and to take the user_name input
+
+
 def game_rule():
     print("Read and try to remember the rules!!\n")
     print("Game Rules:")
@@ -40,6 +42,8 @@ def game_rule():
     return start_num
 
 # Main Game Code --> Rock Paper Scissors Code
+
+
 def rps_game():
     cls.cls()
     print(f"\nMatch between: '{user_name}' And 'PC'")
@@ -59,11 +63,12 @@ def rps_game():
         elif pc_rand == 3:
             pc_choice = 's'
 
-        if (round_num > 0): # Continuation till round number 1
+        if (round_num > 0):  # Continuation till round number 1
             print(f"Round number = {11 - round_num}")
             print("------------------\n")
             round_num -= 1
-            user_choice = input("Your choice? --> ") # Taking user input as: r / p / s
+            # Taking user input as: r / p / s
+            user_choice = input("Your choice? --> ")
 
             # user_choice = Rock ------------------------------------------------------------------------
             if (user_choice == 'r'):
@@ -184,6 +189,7 @@ def rps_game():
             else:
                 return 0
 
+
 # Driver Code
 # Game Heading Display
 print("••••••••••••••••••••••••••••••••••")
@@ -205,4 +211,4 @@ else:
     print("Wrong input!!\nTry Again!!")
     game_rule()     # Recalling game_rule() function in case of wrong input by user in start_num
 
-#----END----
+# ----END----

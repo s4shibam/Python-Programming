@@ -1,6 +1,7 @@
 class student:
     college = 'IEM'
-    pass  # If user do not want to execute any type of action then "pass" command should be used.
+    # If user do not want to execute any type of action then "pass" command should be used.
+    pass
 
 
 # Instance − An individual object of a certain class. Here, the following variable are instance variables.

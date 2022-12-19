@@ -1,6 +1,6 @@
 class employee():
     def __init__(self, nm, age, desg, sal):
-        # 
+        #
         self.name = nm
         self.age = age
         self.designation = desg
@@ -9,9 +9,11 @@ class employee():
     def print_details(self):    # self represents the instance of the class.
         return f"Employee Name: {self.name}, \tAge: {self.age} \tDesignation: {self.designation}, \tSalary: {self.salary}"
 
-sunabha = employee('Sunabha Panda', 21, 'SWE II', '35 LPA') # This parameters are passing through __init__ function.
+
+# This parameters are passing through __init__ function.
+sunabha = employee('Sunabha Panda', 21, 'SWE II', '35 LPA')
 pritam = employee('Pritam Gain', 18, 'SDE I', '29 LPA')
 
-print(sunabha.print_details())  # Here "sunabha" named instance passes as a parameter under print_details().
+# Here "sunabha" named instance passes as a parameter under print_details().
+print(sunabha.print_details())
 print(pritam.print_details())
-

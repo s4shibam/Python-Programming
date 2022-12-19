@@ -1,4 +1,5 @@
-grocery = ["Gram Flour", "Top Biscuit", "Basmati Rice", "Cashewnuts", 75, 10, "Potato", "Cheese"]
+grocery = ["Gram Flour", "Top Biscuit", "Basmati Rice",
+           "Cashews", 75, 10, "Potato", "Cheese"]
 print(type(grocery))
 print(grocery)
 

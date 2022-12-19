@@ -13,7 +13,8 @@ def factorial_iterative(n):
         return 1
     else:
         for i in range(n):
-            fac = fac * (i + 1)  # Initial "i" would be 0, that is why 1 is added to get proper result
+            # Initial "i" would be 0, that is why 1 is added to get proper result
+            fac = fac * (i + 1)
     return fac
 
 

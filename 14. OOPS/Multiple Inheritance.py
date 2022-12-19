@@ -38,13 +38,17 @@ class player(special_employee):
         return f"{self.name} Plays: {self.game}"
 
 
-sunabha = employee('Sunabha Panda', 23, 'SWE II', '35 LPA')  # These parameters are passing through __init__ function.
+# These parameters are passing through __init__ function.
+sunabha = employee('Sunabha Panda', 23, 'SWE II', '35 LPA')
 pritam = employee('Pritam Gain', 22, 'SDE I', '29 LPA')
-shibam = special_employee('Shibam Saha', 26, 'SDE III', '63 LPA', 'MERN Stack Dev, Blockchain Specialist')
+shibam = special_employee('Shibam Saha', 26, 'SDE III',
+                          '63 LPA', 'MERN Stack Dev, Blockchain Specialist')
 johnny = player('Johnny Sarkar', 'Football')
 
-print(sunabha.print_details())  # Here "sunabha" named instance passes as a parameter under print_details().
+# Here "sunabha" named instance passes as a parameter under print_details().
+print(sunabha.print_details())
 print(pritam.print_details())
-print(shibam.print_freelancer())  # Here "shibam" named instance passes as a parameter under print_freelancer().
+# Here "shibam" named instance passes as a parameter under print_freelancer().
+print(shibam.print_freelancer())
 print("Holiday for Shibam", shibam.holiday)
 print(johnny.print_player())

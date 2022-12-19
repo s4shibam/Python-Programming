@@ -1,4 +1,5 @@
-nepo = ["Ananya Pandey", "Varun Dhawan", "Athiya Shetty", "Alia Bhat", "Sonam Kapoor"]
+nepo = ["Ananya Pandey", "Varun Dhawan",
+        "Athiya Shetty", "Alia Bhat", "Sonam Kapoor"]
 
 # The join() method takes all items in an iterable and joins them into one string.
 

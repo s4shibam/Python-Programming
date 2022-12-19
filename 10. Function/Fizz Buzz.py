@@ -7,7 +7,6 @@ import re
 import sys
 
 
-
 #
 # Complete the 'fizzBuzz' function below.
 #
@@ -15,20 +14,19 @@ import sys
 #
 
 def fizzBuzz(n):
-    i=1
+    i = 1
     while i <= n:
-        if i%3==0:
+        if i % 3 == 0:
             print("Fizz", end="")
-            if i%5==0:
+            if i % 5 == 0:
                 print("Buzz", end="")
-        elif i%5==0:
+        elif i % 5 == 0:
             print("Buzz", end="")
         else:
             print(i, end="")
         print()
-        i+=1
+        i += 1
 
 
 n = int(input())
-print (fizzBuzz(n))
-
+print(fizzBuzz(n))

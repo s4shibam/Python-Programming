@@ -11,4 +11,5 @@ while (dec_num > 0):
 if (dnum == 0):
     print("Binary = 0")
 else:
-    print("Binary = ", *a[::-1], sep='')  # Prints a list without brackets and commas
+    # Prints a list without brackets and commas
+    print("Binary = ", *a[::-1], sep='')

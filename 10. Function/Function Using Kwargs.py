@@ -14,29 +14,3 @@ name_comp = {"Abhirup": "Uber", "Sunabha": "Google",
              "Pritam": "Microsoft"}
 
 topper_boys(statement, **name_comp)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

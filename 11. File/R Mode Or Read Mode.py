@@ -17,7 +17,8 @@ f.close()
 print("--------------------------------------")
 
 print("\nPrinting the .txt file in Text mode:\n")
-f = open(tf, "rt")  # r mode is basically rt mode itself, means by default it prints in text (t) format
+# r mode is basically rt mode itself, means by default it prints in text (t) format
+f = open(tf, "rt")
 content = f.read()
 print(content)
 

@@ -6,10 +6,12 @@ Similarly, the lambda keyword is used to define an anonymous function in Python.
 Pros: To make one line function without using a function!!
 """
 
-add = lambda x, y: x + y
-minus = lambda x, y: x - y
-mul = lambda x, y: x * y
-div = lambda x, y: x / y
+
+def add(x, y): return x + y
+def minus(x, y): return x - y
+def mul(x, y): return x * y
+def div(x, y): return x / y
+
 
 a, b = input("Enter two numbers = ").split()
 a = int(a)
