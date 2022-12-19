@@ -9,13 +9,12 @@ Python is a popular programming language. It was created by Guido van Rossum, an
 This repository contains basic or beginner level to intermediate level Python programs including entry level Object Oriented Programming concepts.
 Such That:
 
-- Basics
+- Basic
 - String
-- List
-- Tuple
-- Dictionary
-- Set
+- List, Tuple, Dictionary, Set
 - If Else
 - For/While Loop
 - Function
-- Object Oriented Programming etc.
+- Recursion
+- Object Oriented Programming
+- Mini Projects etc.
